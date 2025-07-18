@@ -30,7 +30,7 @@ def show():
         cluster_counts,
         names='cluster',
         values='count',
-        title='Presentase Jumlah Produk Parfum per Klaster',
+        title='Presentase Jumlah Brand Produk Parfum per Klaster',
         labels={'cluster': 'Klaster', 'count': 'Jumlah'}
     )
     st.plotly_chart(fig_pie_cluster, use_container_width=True)
