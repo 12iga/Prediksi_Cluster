@@ -93,7 +93,7 @@ def show():
             avg_year,
             x='cluster',
             y='year',
-            title='Rata-rata Tahun Berdiri per Klaster',
+            title='Rata-rata Tahun Berdiri Brand per Klaster',
             labels={'cluster': 'Klaster', 'year': 'Tahun'}
         )
         st.plotly_chart(fig_bar_year, use_container_width=True)
