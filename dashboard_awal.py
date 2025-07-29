@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 def show():
-    csv_path = r"D:\SEMESTER 4\Proyek Terintegrasi\parfum\parfum_after_cleaning.csv"
+    csv_path = "parfum_after_cleaning.csv"
 
     @st.cache_data
     def load_data(path):
